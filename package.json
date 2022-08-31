@@ -1,7 +1,7 @@
 {
-  "name": "react-template",
-  "version": "4.0.0",
-  "description": "template for mdb-react-ui-kit",
+  "name": "@mdbootstrap/react-modal-backdrop",
+  "version": "1.0.0",
+  "description": "React Backdrop options for a responsive popup with Bootstrap 5. Prevent close on click outside with static backdrop, remove backdrop, enable interactivity & more.",
   "dependencies": {
     "mdb-react-ui-kit": "^4.0.0",
     "react": "^18.1.0",
@@ -25,7 +25,9 @@
     "bootstrap-theme",
     "css",
     "html",
-    "js"
+    "js",
+    "modal",
+    "backdrop"
   ],
   "author": "MDBootstrap",
   "license": "MIT",
@@ -40,5 +42,14 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mdbootstrap/react-modal-backdrop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mdbootstrap/react-modal-backdrop/issues"
+  },
+  "homepage": "https://mdbootstrap.com/docs/react/extended/modal-backdrop"
 }
